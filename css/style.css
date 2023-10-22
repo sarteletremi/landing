@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Homard&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+body {
+font-family: 'Dosis', serif; 
+font-size: 18px; 
+background-color: rgb(230, 230, 230);
+margin: 0px;
+margin-bottom: 50px;
+}
+h1, h2, h3, h4 {
+font-family: 'Homard';
+font-weight: bold;
+}
+a {
+text-decoration: none;
+color: #48CAE4
+font-weight: lighter;
+}
+
+p{
+color: black;
+}
+
+h1, h2, h3, h4, p, .avatar, .btn-blue, a {
+margin: 30 350px;
+}
+#flower {
+margin-top: 50px;
+margin-left: 350px;
+border-radius: 15px;
+}
+
+h4 {
+font-size: 20;
+margin-top: 80px;
+}
+
+#starwars {
+margin-top: 80px;
+margin-left: 350px;
+border-radius: 15px;
+margin-top: 20px;
+margin-bottom: 30px;
+width: 500px;
+height: 300px;
+}
+
+
+#text-lego {
+margin-bottom: 20px
+}
+
+#learnmore-btn {
+margin-bottom: 30px;
+}
+
+a:hover {
+color: #90E0EF
+}
